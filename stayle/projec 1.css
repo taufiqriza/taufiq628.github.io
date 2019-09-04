@@ -1,0 +1,251 @@
+.wrap{
+    background: blue;
+    width: 1000px;
+    margin: 10px auto;
+    }
+    
+    /*bagian header*/
+    .wrap .header{
+    background: rgb(5, 255, 5);
+    /*height: 50px;*/
+    padding: 2px 10px;
+    }
+    
+    /*akhir header*/
+    
+    /*bagian menu*/
+    .wrap .menu{
+    background: rgb(196, 196, 196);
+    }
+    
+    .wrap .menu ul{
+    padding: 0;
+    margin: 0;
+    background: rgb(160, 160, 160);
+    overflow: hidden;
+    }
+    
+    .wrap .menu ul li{
+    float: left;
+    list-style-type: none;
+    padding: 10px;
+    }
+    /*akhir menu*/
+    
+    .clear{
+    clear: both;
+    }
+    
+    .badan{
+    height: 450px;
+    }
+    /*bagian sidebar*/
+    .wrap .badan .sidebar{
+    background: rgb(189, 188, 188);
+    float: left;	
+    width: 25%;
+    height: 100%;
+    }
+    
+    /*akhir sidebar*/
+    
+    .wrap .badan .content{
+    background: red;
+    float: left;
+    height: 100%;
+    width: 75%;	
+    }
+    
+    .wrap .footer{
+    width: 100%;
+    padding: 10px;
+    }
+/* Start Body */
+body {
+    background-image: url(images/hutan.jpg);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* End Body */
+/* Start Debug */
+.bg-aqua {
+    background-color: #ffffff
+}
+.bg-red {
+    background-color: #ffffff
+}
+/* End Debug */
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/* end Container */
+/* Start logo */
+.logo {
+    text-align: center;
+}
+/* End logo */
+/*  */
+
+/* Start anchor hyperlink */
+a:link,
+a:visited {
+    color: black;
+    text-decoration: none
+}
+/* Start menu primer */
+.menu-primer ul {
+    background-color: aqua;
+    border-radius: 1px;
+    box-shadow: 
+        0 3px 5px -1px #303336;
+        0 6px 10px 0 #303336;
+        0 1px 18px  #303336;
+}
+
+.menu-primer li {
+    border-right: 1px solid #d1d5da;
+    border:solid 1px #000000;
+    display: inline-block;
+    margin: 0 -4px;
+}
+
+.menu-primer a {
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 2xpx;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-block: #eb0b0b;
+}
+
+.menu-primer a:hover {
+    background-color: rgb(150, 40, 253);
+    color: aqua;
+    text-decoration: rgb(0, 195, 255);
+}
+
+.menu-primer .active {
+    background-color: aqua;
+    color: aqua;
+    text-decoration: none;
+}
+
+/* End menu primer */
+
+/* Start Box */
+#box1{
+    width:300px;
+    height:530px;
+    background:rgb(2, 255, 2);
+    border:solid 1px black;
+    display: inline-block;
+    box-shadow: 
+        0 3px 5px -1px #252525;
+        0 6px 10px 0 #181818;
+        0 1px 18px  #303336;
+}
+#box2{
+    width:100%;
+    height:200px;
+    background:#b1b1b1;
+    border:solid 1px #000000;
+    display: inline-block;
+    box-shadow: 
+        0 3px 5px -1px #222324;
+        0 6px 10px 0 #303336;
+        0 1px 18px  #303336;
+}
+#box3{
+    width:100px;
+    height:50px;
+    background:#7e7c7c;
+    border:solid 1px #000000;
+    display: inline-block;
+    box-shadow: 
+        0 3px 5px -1px #222324;
+        0 6px 10px 0 #303336;
+        0 1px 18px  #303336;
+}
+#box4{
+    width:100%;
+    height:100px;
+    background:#b1b1b1;
+    border:solid 2px #000000;
+    display: inline-block;
+    box-shadow: 
+        0 3px 5px -1px #222324;
+        0 6px 10px 0 #303336;
+        0 1px 18px  #303336;
+}
+#box5{
+    width:100%;
+    height:300px;
+    background:#d6d5d5;
+    border:solid 1px #000000;
+    display: inline-block;
+    box-shadow: 
+        0 3px 5px -1px #222324;
+        0 6px 10px 0 #303336;
+        0 1px 18px  #303336;
+}
+
+
+/* info */
+.menu-info ul {
+    background-color: rgb(139, 139, 139);
+    border-radius: 1px;
+    box-shadow: 
+        0 3px 5px -1px #303336;
+        0 6px 10px 0 #303336;
+        0 1px 18px  #303336;
+}
+
+.menu-info li {
+    border-right: 1px solid #d1d5da;
+    display: inline-block;
+    margin: 0 -1px;
+}
+
+.menu-info a {
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 0xpx;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-block: #eb0b0b;
+}
+
+.menu-info a:hover {
+    background-color: rgb(150, 40, 253);
+    color: aqua;
+    text-decoration: rgb(0, 195, 255);
+}
+
+.menu-info .active {
+    background-color: rgb(114, 114, 114);
+    color: rgb(189, 189, 189);
+    text-decoration: none;
+}
+/* rata text */
+.tengah{
+    text-align:center;
+}
+.kiri{
+    text-align:left;
+}
+.kanan{
+    text-align:right;
+}

@@ -1,0 +1,107 @@
+/* Start Body */
+body {
+    background-color: green;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* End Body */
+/* Start Debug */
+.bg-blue {
+    background-color: blue;
+}
+.bg-red {
+    background-color: red;
+}
+/* End Debug */
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+/* end Container */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Start logo */
+.logo {
+    text-align: center;
+}
+/* End logo */
+
+/* Start anchor hyperlink */
+a:link,
+a:visited {
+    color: black;
+    text-decoration: none
+}
+/* Start menu primer */
+.menu-primer ul {
+    background-color: green;
+    border-radius: 4px;
+    box-shadow: 
+         0 3px 5px -1px cornsilk (0,0,0,.2)
+         0 6px 10px 0  cornsilk (0,0,0,.14)
+         0 1px 18px 0   cornsilk (0,0,0,.12)
+}
+
+.menu-primer li {
+    border-right: 1px solid #d1d5da;
+    display: inline-block;
+    margin: 0 -4px;
+}
+
+.menu-primer a {
+    color: green;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: blueviolet;
+    color: aqua;
+    text-decoration: blue;
+}
+
+.menu-primer .active {
+    background-color: aqua;
+    color: aqua;
+    text-decoration: none;
+}
+
+/* End menu primer */
+
+/* hyperlink */
