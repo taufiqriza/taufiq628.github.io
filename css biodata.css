@@ -1,0 +1,28 @@
+table,tr,td{
+    background-color: LightGoldenRodYellow ;
+    font-family: Verdana;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    border-collapse: collapse;
+ }
+ .h{
+    border: 8px groove yellow;
+    padding: 20px;
+ }
+ .posisi{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    left: 0;
+    right: 0;
+    top: 100px;
+    bottom: 0;
+ }
+ body{
+    background-image: url('images.jpg');
+    background-repeat: no-repeat;
+    background-size: 1400px auto;
+ }
